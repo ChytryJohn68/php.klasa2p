@@ -1,4 +1,8 @@
 <?php
-echo "Tu funkcja echo";
 
+$a= "Tu"
+$b = "funkcja"
+$c = "echo"
+echo "Tu funkcja echo";
+echo $a. $b .$c;
 ?>
