@@ -18,7 +18,18 @@
 <body>
     <?php $wiek=rand(0,100);?>
     <h1>
-        Mam <?= $wiek ?>
+        Mam <?= $wiek ?> 
+        <?php
+            if($wiek<=1){
+                echo " rok.";
+            }
+            elseif($wiek>=2 && $wiek<=5 or $wiek){
+                echo " lata.";
+            }
+            elseif($wiek>5){
+                echo" lat.";
+            }
+        ?>
     </h1>
     <h2>
         <?php
