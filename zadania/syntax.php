@@ -13,6 +13,7 @@ echo "<br>";
 print('Zgałasza się funkcja print');
 echo "<br>";
 //komentarz jedno liniowy pierwszy
+
 #komentarz jedno liniowy drugi
 
 /*
