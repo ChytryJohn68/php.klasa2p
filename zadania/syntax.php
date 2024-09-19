@@ -10,7 +10,7 @@ echo ("Tu funkcja echo");
 echo "<br>";
 print("Zgłasza sie funkcja print");
 echo "<br>";
-print('Zgałasza się funkcja print');
+print('Zgłasza się funkcja print');
 echo "<br>";
 //komentarz jedno liniowy pierwszy
 
