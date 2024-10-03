@@ -31,7 +31,7 @@
             }
             else
             {
-                echo"<td>";a
+                echo"<td>";
                 echo $dzien;
                 echo"</td>";
                 $i++;
