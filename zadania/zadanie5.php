@@ -8,42 +8,50 @@
         border:1px, solid, black;
         text-align: center;
         border-collapse: collapse;
-
+        font-family: Verdana;
+        font-size: large;
         }
         th,td{
-        border:1px, dotted, black;
-        
+        border:1px, dashed, black;
+        padding: 5px;
         }
         th{
             background-color: burlywood;
-            padding: 5px;
         }
         td{
             background-color: beige;
-            padding: 5px;
         }
     </style>
 </head>
 <body>
     <table>
+        <caption>Tabliczka mnożenia</caption>
     <?php
-        for($i=0;$i<=10;$i++){
-            echo "<th>".$i."<th>";
-            
-        for($j=1;$j<=10;$j++){
-                echo $j."<th>";
-                
-        }
-        
+        echo "<th>x</th>";
         for($i=1;$i<=10;$i++){
-            echo "<tr><th>$i</th>";
-            echo "<td>".($i*$i)."<td>";
-            echo "<tr><td>".($i*$i)."<td>";
+            echo "<th>".$i."</th>";
         }
         
-   
-    }
-    
+        for($j=1;$j<=10;$j++){
+            echo "<tr>";
+            echo "<th>".$j;
+            for($h=1;$h<=10;$h++){
+                if($h==$j){
+                    echo '<td style="background-color:bisque;">';
+                    echo $h*$j;
+                    echo "</td>";
+                }
+                else{
+                echo "<td>";
+                echo $h*$j;
+                echo "</td>";
+            }
+            }      
+        }
+        echo "</th>";
+        echo "</tr>";
+
+        
     ?>
     </table>
 </body>
