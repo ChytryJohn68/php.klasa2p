@@ -51,8 +51,7 @@
         echo "</th>";
         echo "</tr>";
 
-        echo "siema";
-        echo "lols";
+
     ?>
     </table>
 </body>
