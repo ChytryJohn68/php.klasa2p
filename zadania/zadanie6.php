@@ -126,5 +126,18 @@
                 }
             ?>
         </table>
+        <br><br><br>
+        <caption>Sortowanie malejaco wedlug kluczy</caption>
+        <br>
+        <table>
+            
+            <?php
+                krsort($filmy);
+                    print_r("<th>"."Klucz"."</th>"."<th>"."Wartosc"."</th>"."<tr>");
+                foreach ($filmy as $key => $val) {
+                    print_r("<td>".$key."</td>"."<td>".$val."</td>"."<tr>");
+                }
+            ?>
+        </table>
 </body>
 </html>
