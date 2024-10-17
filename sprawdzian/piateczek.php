@@ -21,6 +21,7 @@
     <?php
         $dni=array("poniedziałek","wtorek","środa","czwartek","piątek","sobota","niedziela");
         foreach($dni as $dzien)
+        
             if($i%5==0)
             {
                 echo'<th style="background-color: sandybrown;" > ';
