@@ -29,7 +29,7 @@
         );
         ?>
         <br>
-        <caption>Sortowanie rosnąco wedlug wartosci</caption>
+        <caption>Sortowanie rosnąco wedlug wartosci[asort]</caption>
         <br>
         <table>
             <?php
@@ -54,7 +54,7 @@
             ?>
         </table>
         <br>
-        <caption>Sortowanie rosnaco wedlug kluczy</caption>
+        <caption>Sortowanie rosnaco wedlug kluczy[ksort]</caption>
         <br>
         <table>
             <?php
@@ -78,7 +78,7 @@
             ?>
         </table>
         <br>
-        <caption>Sortowanie malejaco wedlug wartosci</caption>
+        <caption>Sortowanie malejaco wedlug wartosci[arsort]</caption>
         <br>
         <table>
             <?php
@@ -102,7 +102,7 @@
             ?>
         </table>
         <br>
-        <caption>Sortowanie malejaco wedlug kluczy</caption>
+        <caption>Sortowanie malejaco wedlug kluczy[krsort]</caption>
         <br>
         <table>
             
@@ -127,7 +127,7 @@
             ?>
         </table>
         <br><br><br>
-        <caption>Sortowanie malejaco wedlug kluczy</caption>
+        <caption>Sortowanie malejaco wedlug kluczy[krsort](inny sposob w kodzie)</caption>
         <br>
         <table>
             
