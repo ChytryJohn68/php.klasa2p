@@ -2,12 +2,12 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>strona</title>
+    <title>SITE</title>
 </head>
 <body>
 <p>
 <?php
-$suma=0
+$suma=0;
 for($a=10;$a<=99;$a++){
    if($a%2==0){
     echo $a;
