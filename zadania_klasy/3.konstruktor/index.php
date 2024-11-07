@@ -21,22 +21,22 @@ include_once 'Arytmetyka.php';
 
     <ul style="list-style-type: square;">
         <li>
-            Wynik Dodawania liczb <?=$DodawanieObj->liczbaA?> i <?=$DodawanieObj->liczbaB?> jest równy <?=$DodawanieObj->suma()?>
+            Wynik Dodawania liczb <strong><?=$DodawanieObj->liczbaA?></strong> i <strong><?=$DodawanieObj->liczbaB?></strong> jest równy <strong><?=$DodawanieObj->suma()?></strong>
         </li>
         <li>
-            Wynik Odejmowania liczb <?=$DodawanieObj->liczbaA?> i <?=$DodawanieObj->liczbaB?> jest równy <?=$DodawanieObj->roznica()?>
+            Wynik Odejmowania liczb <strong><?=$DodawanieObj->liczbaA?></strong> i <strong><?=$DodawanieObj->liczbaB?></strong> jest równy <strong><?=$DodawanieObj->roznica()?></strong>
         </li>
         <li>
-            Wynik Mnozenia liczb <?=$DodawanieObj->liczbaA?> i <?=$DodawanieObj->liczbaB?> jest równy <?=$DodawanieObj->iloczyn()?>
+            Wynik Mnozenia liczb <strong><?=$DodawanieObj->liczbaA?></strong> i <strong><?=$DodawanieObj->liczbaB?></strong> jest równy <strong><?=$DodawanieObj->iloczyn()?></strong>
         </li>
         <li>
-            Wynik Dzielenia liczb <?=$DodawanieObj->liczbaA?> i <?=$DodawanieObj->liczbaB?> jest równy <?=$DodawanieObj->iloraz()?>
+            Wynik Dzielenia liczb <strong><?=$DodawanieObj->liczbaA?></strong> i <strong><?=$DodawanieObj->liczbaB?></strong> jest równy <strong><?=$DodawanieObj->iloraz()?></strong>
         </li>
         <li>
-            Wynik reszty z dzielenia liczb <?=$DodawanieObj->liczbaA?> i <?=$DodawanieObj->liczbaB?> jest równy <?=$DodawanieObj->reszta()?>
+            Wynik reszty z dzielenia liczb <strong><?=$DodawanieObj->liczbaA?></strong> i <strong><?=$DodawanieObj->liczbaB?></strong> jest równy <strong><?=$DodawanieObj->reszta()?></strong>
         </li>
         <li>
-            Wynik Potegowania liczb <?=$DodawanieObj->liczbaA?> i <?=$DodawanieObj->liczbaB?> jest równy <?=$DodawanieObj->poteg()?>
+            Wynik Potegowania liczb <strong><?=$DodawanieObj->liczbaA?></strong> i <strong><?=$DodawanieObj->liczbaB?></strong> jest równy <strong><?=$DodawanieObj->poteg()?></strong>
         </li>
     </ul> 
 </body>
