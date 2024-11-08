@@ -1,10 +1,10 @@
 Dopisujemy na końcu pliku C:\xampp\apache\conf\httpd.conf konfigurację tzw. wirtualnego hosta:
 
 <VirtualHost *> 
-	DocumentRoot "C:/Users/kogutm/Documents/GitHub"
-        Alias /github "C:/Users/kogutm/Documents/GitHub"
+	DocumentRoot "C:/Users/p23chalupkam/Documents/vs"
+        Alias /github "C:/Users/p23chalupkam/Documents/vs"
     
-	<Directory "C:/Users/kogutm/Documents/GitHub">
+	<Directory "C:/Users/p23chalupkam/Documents/vs">
         Options Indexes FollowSymLinks MultiViews
         Require all granted
         AllowOverride None
