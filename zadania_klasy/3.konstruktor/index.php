@@ -15,7 +15,7 @@ include_once 'Arytmetyka.php';
 </head>
 <body>
 <?php
-    $DodawanieObj = new arytmetyka(5,0);
+    $DodawanieObj = new arytmetyka(7,0);
     
     ?>
 
