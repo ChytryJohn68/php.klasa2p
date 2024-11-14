@@ -44,9 +44,9 @@
                     return (pow($this->liczbaA, $this->liczbaB));
                 }
                 return null;
-            }
+            } 
         }
-
+        
     ?>
 <!DOCTYPE html>
 <html lang="en">    
@@ -82,5 +82,6 @@
             Wynik Potegowania liczb <?=$DodawanieObj->liczbaA?> i <?=$DodawanieObj->liczbaB?> jest równy <?=$DodawanieObj->poteg()?>
         </li>
     </ul> 
+   
 </body>
 </html>
