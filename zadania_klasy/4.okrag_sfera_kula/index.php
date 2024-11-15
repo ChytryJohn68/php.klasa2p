@@ -1,5 +1,5 @@
 <?php
-include_once 'zadanie7.php';
+include_once 'okrag_sfera_kula.php';
 ?>
 <!DOCTYPE html>
 <html lang="en">
