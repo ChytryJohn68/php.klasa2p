@@ -4,6 +4,6 @@ function silnia($n) {
         return 1;
         }
         return $n * silnia($adan - 1);
-}
+}dadad
 echo silnia(5);
 ?>
