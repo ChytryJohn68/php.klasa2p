@@ -6,7 +6,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Roczniki</title>
-  <link rel="icon" href="https://pl.freepik.com/ikona/szklarnia_5563175#fromView=family&page=1&position=1&uuid=1c025c4c-9ffd-4c94-9433-fa8dc5890a68" type="image/x-icon">
+  <link rel="icon" href="fa fa-thermometer-empty" type="image/x-icon">
 
 </head>
 
