@@ -10,8 +10,7 @@
         fieldset{
             border-width: 2px;
             border-color: blue;
-            margin-left: 600px;
-            margin-right: 600px;
+   
         }
         label{
             margin-right: 15px;
@@ -28,15 +27,15 @@
         <form method="post">
             <?php
             foreach (range('A', 'Z') as $litera) {
-                $isChecked = (!empty($_POST["litera"]) && in_array($litera, $_POST["litera"])) ? "checked" : "";
+                $chec = (!empty($_POST["litera"]) && in_array($litera, $_POST["litera"])) ? "checked" : "";
                 ?>
-                <input <?= $isChecked ?> type="checkbox" id="litera_<?= $litera ?>" name="litera[]" value="<?= $litera ?>">
-                <label for="litera_<?= $litera ?>"><?= $litera ?></label>
+                <input <?= $chec ?> type="checkbox" id="litera_<?= $litera ?>" name="litera[]" value="<?= $litera ?>"><?= $litera ?>
+                <label for="litera_<?= $litera ?>"></label>
                 <?php
             }
             ?>
             <br>
-            <input type="submit" name="wyslij" value="Wyślij to">
+            <input type="submit" name="wyslij" value="Wybierz">
         </form>
         <?php
         if (!empty($_POST["litera"])) {

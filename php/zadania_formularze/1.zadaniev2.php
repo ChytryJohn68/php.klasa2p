@@ -19,6 +19,7 @@
     ?>
             <input type="radio" id="a<?=$rok?>" name="rocznik">
             <label for="a<?=$rok?>"><?=$rok?></label>
+
       <br>
     <?php
       $rok++;
