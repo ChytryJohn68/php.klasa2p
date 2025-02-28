@@ -19,7 +19,12 @@ session_start()
         <a href="panel.php">panel administracyjny</a>
     </div>
     <h1>panel administracyjny</h1>
-
+    
+    <?php
+        if(){
+            
+        }
+    ?>
 
 
 

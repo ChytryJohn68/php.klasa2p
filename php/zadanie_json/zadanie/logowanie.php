@@ -32,6 +32,7 @@ session_start()
             if(isset($_POST["submi"])){
                 if($_POST['login']==='admin' && $_POST['pass']==='tyłek123'){
                     $_SESSION["login_status"]=$_POST["login"];
+                    echo "jestes zalogowany";
                 }
                 else{
                     echo '<p>Login lub hasło są niepoprawne</p>';
@@ -44,8 +45,9 @@ session_start()
         <?php
         if(isset($_SESSION["login_status"]) && $_SESSION["login_status"])
         {
-            echo "zalogowano";
             ?>
+            <p>jestes zalogowany jako <?=$_SESSION["login_status"]?></p>
+            <br>
             <input  type="submit" id="wyloguj" name="wyloguj" value="wyloguj" >
             <label for="wyloguj"></label>
             <?php
