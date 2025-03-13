@@ -47,7 +47,7 @@ input[type=checkbox] {
                 ?>
                 <tr>
                 <td><label for="termin1<?= $i ?>">Termin <?= $i ?>.</label></td>
-                    <td><input type="checkbox" name="terminy[]" id="termin1<?= $i ?>" value="termin1<?= $i ?>" <?= $checked ?></td>
+                    <td><input type="checkbox" name="terminy[]" id="termin1<?= $i ?>" value="termin1<?= $i ?>" <?= $checked ?>> </td>
                     <td><input type="month" name="termin1-month<?= $i ?>" id="termin1-month<?= $i ?>" value="<?= $warunek ? $_POST["termin1-month".$i] : '' ?>"></td>
                 </tr>
                 <?php

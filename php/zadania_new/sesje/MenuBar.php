@@ -14,7 +14,7 @@
     padding: 10px;
     padding-inline: 40px;
     border-radius: 30px;
-    background-color: #E28E1D;
+    background-color: lightblue;
     font-family: Courier New;
     text-align: center;
     }
@@ -26,7 +26,7 @@
     padding: 10px;
     padding-inline: 40px;
     border-radius: 30px;
-    background-color: #E28E1D;
+    background-color: lightblue;
     font-family: Courier New;
     text-align: center;
     }
@@ -38,7 +38,7 @@
     padding: 10px;
     padding-inline: 40px;
     border-radius: 30px;
-    background-color: #E28E1D;
+    background-color: lightblue;
     font-family: Courier New;
     text-align: center;
     }

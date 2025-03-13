@@ -1,0 +1,284 @@
+2025-03-12 21:03:09
+Array
+(
+    [terminy] => Array
+        (
+            [0] => termin11
+        )
+
+    [termin1-month1] => 2025-03
+    [termin1-month2] => 
+    [termin1-month3] => 
+    [termin1-month4] => 
+    [termin1-month5] => 
+)
+2025-03-13 14:08:06
+Array
+(
+    [terminy] => Array
+        (
+            [0] => termin11
+            [1] => termin13
+        )
+
+    [termin1-month1] => 0122-04
+    [termin1-month2] => 0002-01
+    [termin1-month3] => 0003-01
+    [termin1-month4] => 0003-12
+    [termin1-month5] => 0005-05
+)
+2025-03-13 14:09:45
+Array
+(
+    [terminy] => Array
+        (
+            [0] => termin11
+            [1] => termin13
+        )
+
+    [termin1-month1] => 0122-04
+    [termin1-month2] => 
+    [termin1-month3] => 0003-01
+    [termin1-month4] => 
+    [termin1-month5] => 
+)
+2025-03-13 14:09:46
+Array
+(
+    [terminy] => Array
+        (
+            [0] => termin11
+            [1] => termin13
+        )
+
+    [termin1-month1] => 0122-04
+    [termin1-month2] => 
+    [termin1-month3] => 0003-01
+    [termin1-month4] => 
+    [termin1-month5] => 
+)
+2025-03-13 14:09:50
+Array
+(
+    [terminy] => Array
+        (
+            [0] => termin11
+            [1] => termin12
+        )
+
+    [termin1-month1] => 0122-04
+    [termin1-month2] => 
+    [termin1-month3] => 0003-01
+    [termin1-month4] => 
+    [termin1-month5] => 
+)
+2025-03-13 14:09:51
+Array
+(
+    [terminy] => Array
+        (
+            [0] => termin11
+        )
+
+    [termin1-month1] => 0122-04
+    [termin1-month2] => 
+    [termin1-month3] => 
+    [termin1-month4] => 
+    [termin1-month5] => 
+)
+2025-03-13 14:09:52
+Array
+(
+    [terminy] => Array
+        (
+            [0] => termin11
+        )
+
+    [termin1-month1] => 0122-04
+    [termin1-month2] => 
+    [termin1-month3] => 
+    [termin1-month4] => 
+    [termin1-month5] => 
+)
+2025-03-13 14:09:52
+Array
+(
+    [terminy] => Array
+        (
+            [0] => termin11
+        )
+
+    [termin1-month1] => 0122-04
+    [termin1-month2] => 
+    [termin1-month3] => 
+    [termin1-month4] => 
+    [termin1-month5] => 
+)
+2025-03-13 14:09:53
+Array
+(
+    [terminy] => Array
+        (
+            [0] => termin11
+            [1] => termin15
+        )
+
+    [termin1-month1] => 0122-04
+    [termin1-month2] => 
+    [termin1-month3] => 
+    [termin1-month4] => 
+    [termin1-month5] => 
+)
+2025-03-13 14:09:58
+Array
+(
+    [terminy] => Array
+        (
+            [0] => termin11
+            [1] => termin15
+        )
+
+    [termin1-month1] => 0122-04
+    [termin1-month2] => 
+    [termin1-month3] => 
+    [termin1-month4] => 
+    [termin1-month5] => 0003-05
+)
+2025-03-13 14:09:59
+Array
+(
+    [terminy] => Array
+        (
+            [0] => termin11
+            [1] => termin15
+        )
+
+    [termin1-month1] => 0122-04
+    [termin1-month2] => 
+    [termin1-month3] => 
+    [termin1-month4] => 
+    [termin1-month5] => 0003-05
+)
+2025-03-13 14:09:59
+Array
+(
+    [terminy] => Array
+        (
+            [0] => termin11
+            [1] => termin15
+        )
+
+    [termin1-month1] => 0122-04
+    [termin1-month2] => 
+    [termin1-month3] => 
+    [termin1-month4] => 
+    [termin1-month5] => 0003-05
+)
+2025-03-13 14:10:00
+Array
+(
+    [terminy] => Array
+        (
+            [0] => termin11
+            [1] => termin15
+        )
+
+    [termin1-month1] => 0122-04
+    [termin1-month2] => 
+    [termin1-month3] => 
+    [termin1-month4] => 
+    [termin1-month5] => 0003-05
+)
+2025-03-13 14:10:00
+Array
+(
+    [terminy] => Array
+        (
+            [0] => termin11
+            [1] => termin15
+        )
+
+    [termin1-month1] => 0122-04
+    [termin1-month2] => 
+    [termin1-month3] => 
+    [termin1-month4] => 
+    [termin1-month5] => 0003-05
+)
+2025-03-13 14:10:02
+Array
+(
+    [termin1-month1] => 0122-04
+    [termin1-month2] => 
+    [termin1-month3] => 
+    [termin1-month4] => 
+    [terminy] => Array
+        (
+            [0] => termin15
+        )
+
+    [termin1-month5] => 0003-05
+)
+2025-03-13 14:10:07
+Array
+(
+    [termin1-month1] => 
+    [termin1-month2] => 
+    [termin1-month3] => 
+    [termin1-month4] => 
+    [terminy] => Array
+        (
+            [0] => termin15
+        )
+
+    [termin1-month5] => 0003-05
+)
+2025-03-13 14:10:09
+Array
+(
+    [termin1-month1] => 
+    [termin1-month2] => 
+    [termin1-month3] => 
+    [termin1-month4] => 
+    [terminy] => Array
+        (
+            [0] => termin15
+        )
+
+    [termin1-month5] => 0003-05
+)
+2025-03-13 14:10:29
+Array
+(
+    [terminy] => Array
+        (
+            [0] => termin11
+            [1] => termin12
+            [2] => termin13
+            [3] => termin14
+            [4] => termin15
+        )
+
+    [termin1-month1] => 2333-01
+    [termin1-month2] => 2009-08
+    [termin1-month3] => 0032-12
+    [termin1-month4] => 0004-01
+    [termin1-month5] => 0003-05
+)
+2025-03-13 14:10:30
+Array
+(
+    [terminy] => Array
+        (
+            [0] => termin11
+            [1] => termin12
+            [2] => termin13
+            [3] => termin14
+            [4] => termin15
+        )
+
+    [termin1-month1] => 2333-01
+    [termin1-month2] => 2009-08
+    [termin1-month3] => 0032-12
+    [termin1-month4] => 0004-01
+    [termin1-month5] => 0003-05
+)

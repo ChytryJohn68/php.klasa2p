@@ -36,7 +36,7 @@ if($_SERVER["REQUEST_METHOD"] === "POST" && isset($_POST["Ustaw"]) && $_SESSION[
 <?php if(isset($_SESSION['login']) && $_SESSION['login'] === 'admin'){ ?>
         <form method="post">
             <label for="nazwa_ciastka">Nazwa ciasteczka:</label>
-            <input type="text" name="nazwa_ciastka" id="nazwa_ciastka" value="good_password_definition" readonly>
+            <input type="text" name="nazwa_ciastka" id="nazwa_ciastka" value="good_password_definition" >
 
             <label for="czas_ciastka">Wygasa: (w sekundach)</label>
             <input type="number" name="czas_ciastka" id="czas_ciastka" value="<?= isset($czas_ciastka) ? $czas_ciastka : 3000 ?>" required>
