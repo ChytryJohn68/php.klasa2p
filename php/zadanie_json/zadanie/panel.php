@@ -21,9 +21,7 @@ session_start()
     <h1>panel administracyjny</h1>
     
     <?php
-        if(){
-            
-        }
+        
     ?>
 
 
