@@ -12,7 +12,7 @@
 
 <body>
 <?php
-$json="Armenia":"2,5%","Liban":"16,1%","Mongolia":"9,6%";
+$json='{"Armenia":"2,5%","Liban":"16,1%","Mongolia":"9,6%"}'
 ?>
 <fieldset>
     <code>

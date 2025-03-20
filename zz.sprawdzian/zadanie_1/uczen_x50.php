@@ -28,7 +28,7 @@ table{
             
             <?php
             $uczen = 1;
-            for ($i = 0; $i <= 50; $i++) {
+            for ($i = 0; $i <= 49; $i++) {
             ?>
                     <tr>
                     <td><label for="a<?=$uczen?>">Uczen <?=$uczen?>:</label></td>
