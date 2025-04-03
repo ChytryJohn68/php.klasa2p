@@ -1,13 +1,50 @@
-.bad{
-    color: red;
+
+
+.bad {
+  color: red;
 }
-.good{
-    color: lightgreen;
+.good {
+  color: rgb(43, 216, 0);
+  
 }
-.tekst{
-    border-radius: 20px ;
-    margin: 20px auto;
-    box-shadow: 0px 8px 10px black;
-    min-width: 150px;
-    max-width: 1000px;
+.tekst {
+  background-color: rgb(227, 194, 243);
+  border: 2px solid blueviolet;
+  border-radius: 20px;
+  margin: auto;
+  box-shadow: -0px 10px 50px blueviolet;
+  min-width: 150px;
+  max-width: 1000px;
+  padding: 50px;
+}
+.tekst h1,
+.tekst h2,
+.tekst h4,
+.tekst p,
+.tekst a
+
+{
+  text-align: center;
+}
+
+  input[type="radio"] {
+    appearance: none;
+    width: 20px;
+    height: 20px;
+    border: 2px solid blueviolet;
+    border-radius: 50%;
+    display: inline-block;
+    position: relative;
+}
+
+input[type="radio"]:checked::before {
+    content: "";
+    width: 10px;
+    height: 10px;
+    background: blueviolet;
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
