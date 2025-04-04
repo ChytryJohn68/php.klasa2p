@@ -50,7 +50,9 @@ session_start();
                     }
                     ?>
                     <br>
-                    <input  type="submit" value="Prześlij odpowiedź">
+                    <div class="cent">
+                    <input class="wid" type="submit" value="Prześlij odpowiedź">
+                    </div>
         </form>
     </div>
 </body>

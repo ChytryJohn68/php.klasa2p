@@ -27,14 +27,19 @@ session_start();
                 if ($_POST['answer'] == $_SESSION['correct_answer']) {
 
                     ?>
-                    <p class='good'>Dobra</p>
-                    <a href='pytania.php'>Kolejne</a>
+                    <p class='good'>Dobra odpowiedź!</p>
+                    <div class="check">
+                    <a class="wid"  href='pytania.php'>Kolejne</a>
+                    </div>
                     <?php
                 } else {
                     ?>
                     <p class='bad'>ŹLE</p>
-                    <p class="good">poprawna odp to: <?= $_SESSION['correct_answer'] ?></p>
-                    <a href='pytania.php'>Kolejne</a>
+                    <p >Poprawna odpowiedź to: </p>
+                    <p class="good"><?= $_SESSION['correct_answer'] ?></p>
+                    <div class="check">
+                    <a class="wid"  href='pytania.php'>Kolejne</a>
+                    </div>
                     <?php
                 }
                 ?>
