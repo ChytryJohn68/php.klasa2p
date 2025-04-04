@@ -43,7 +43,7 @@ session_start();
                     <?php
                     foreach ($answer as $as) {
                         ?>
-                        <input type="radio" name="answer" id="answer<?= $as ?>" value="<?= $as ?>" required>
+                        <input type="radio" name="answer" id="answer<?= $as ?>" value="<?=htmlspecialchars($as)?>" required >
                         <label for="answer<?= $as ?>"><?= $as ?></label>
                         <br>
                         <?php
