@@ -23,7 +23,9 @@ session_start();
             <p>Wybrałeś: <?= $_POST['answer'] ?></p>
             <p>
                 <?php
+
                 if ($_POST['answer'] == $_SESSION['correct_answer']) {
+
                     ?>
                     <p class='good'>Dobra</p>
                     <a href='pytania.php'>Kolejne</a>
