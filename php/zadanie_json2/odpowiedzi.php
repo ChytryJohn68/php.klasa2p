@@ -39,6 +39,7 @@ session_start();
                     <p class="good"><?= $_SESSION['correct_answer'] ?></p>
                     <div class="check">
                     <a class="wid"  href='pytania.php'>Kolejne</a>
+                    
                     </div>
                     <?php
                 }
