@@ -1,0 +1,45 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+
+header {
+    background-color:cadetblue;
+    width: 100%;
+    height: 150px;
+    display: flex;
+    align-items: center; 
+    position: relative; 
+    
+}
+
+header img {
+    height: 80%;
+    width: auto;
+    position: absolute;
+    left: 20px; 
+}
+
+header a {
+    margin: 0 auto; 
+    font-size: 2rem;
+    text-align: center;
+    color: blanchedalmond; 
+    text-decoration: none; 
+}
+
+header a:hover {
+    color:maroon; 
+}
+header div{
+    display: flex;
+    justify-content: center;   
+}
+.header{
+    width: 60%;
+    margin-left: 20%;
+}
+
