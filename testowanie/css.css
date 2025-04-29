@@ -3,6 +3,7 @@ body {
     padding: 0;
     display: flex;
     justify-content: center;
+    flex-direction:column;
 }
 
 
@@ -42,4 +43,7 @@ header div{
     width: 60%;
     margin-left: 20%;
 }
-
+main{
+    background-color: dimgrey;
+    height: 100vh;
+}
