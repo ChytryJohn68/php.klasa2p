@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="UTF-8">
+  <title>Przepraszam.</title>
+  <style>
+
+    body {
+      background-color: #fac6d7;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+      font-family: Arial, sans-serif;
+    }
+
+    header {
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      height: 100px;
+      background-color: #ff69b4;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    .heart-wrapper {
+      position: relative;
+      width: 200px;
+      height: 200px;
+      display: none;
+    }
+
+    .heart {
+      width: 100px;
+      height: 90px;
+      background-color: red;
+      position: absolute;
+      left: 50%;
+      top: 50%;
+      transform: translate(-50%, -50%) rotate(-45deg);
+      animation: pulse 1s infinite;
+    }
+
+    .heart::before,
+    .heart::after {
+      content: "";
+      width: 100px;
+      height: 90px;
+      background-color: red;
+      position: absolute;
+      border-radius: 50%;
+    }
+
+    .heart::before {
+      top: -50px;
+      left: 0;
+    }
+
+    .heart::after {
+      left: 50px;
+      top: 0;
+    }
+
+    .text {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      color: white;
+      font-weight: bold;
+      font-size: 18px;
+      z-index: 10;
+      text-align: center;
+      display: none;
+      pointer-events: none;
+    }
+
+    @keyframes pulse {
+      0% { transform: translate(-50%, -50%) rotate(-45deg) scale(1); }
+      50% { transform: translate(-50%, -50%) rotate(-45deg) scale(1.1); }
+      100% { transform: translate(-50%, -50%) rotate(-45deg) scale(1); }
+    }
+  </style>
+</head>
+<body>
+<header>
+  <h1>
+    przepraszam cię skarbie.
+  </h1>
+</header>
+<div class="heart-wrapper" id="heartWrapper">
+  <div class="heart" id="heart"></div>
+  <div class="text" id="text">Przepraszam cię :(</div>
+</div>
+<div>
+  <h2>naprawdę przepraszam cię za to co robiłem ostatio. Kocham cię najbardziej na świecie i wiem że ta strona nie jest zbyt dobrze dopracowana </h2>
+  <h2>ale nie wiem jak dziala javascript a chcialem cos zrobic zebys wiedziała że naprawde mi zależy i że bardzo cie kocham i ze jest mi przykro</h2>
+  <h2>przez to co robiłem. Wybacz mi.</h2>
+</div>
+<script>
+  const answer = confirm("Czy otworzyć?");
+  if (answer) {
+    const wrapper = document.getElementById("heartWrapper");
+    const text = document.getElementById("text");
+    wrapper.style.display = "block";
+
+    setTimeout(() => {
+      text.style.display = "block";
+    }, 1000);
+  }
+</script>
+
+</body>
+</html>
