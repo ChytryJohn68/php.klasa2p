@@ -6,22 +6,27 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="formatowanie.css">
     <link href="zdjecia/sushi_icon.png" rel="icon" type="image/x-icon" alt="LOGO">
-    <title>SUSHI BAR</title>
+    <link href="https://fonts.googleapis.com/css?family=Rock+Salt&display=swap" rel="stylesheet">
+    <title>WASABI SAMURAI</title>
 </head>
 
 <body>
     <header>
         <img src="zdjecia/sushi_icon.png" alt="LOGO">
         <div class="header">
-            <button href="index.php">HOME</button>
-            <button href="oferta.php">OFERTA</button>
-            <button href="menu.php">MENU</button>
+            <a href="index.php">HOME</a>
+            <a href="oferta.php">OFERTA</a>
+            <a href="menu.php">MENU</a>
         </div>
 
     </header>
-    <main>
+   <main>
+  <div class="kamienie" >a</div>
+  
+  <div class="kamienie" >a</div>
+  <div class="kamienie" >a</div>
 
-    </main>
+</main>
 </body>
 
 </html>

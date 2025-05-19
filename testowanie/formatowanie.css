@@ -1,9 +1,8 @@
 body {
   margin: 0;
   padding: 0;
-  display: flex;
-  justify-content: center;
-  background-color: #0d0d0d;
+  background: 
+    linear-gradient(180deg, #18191a 0%, #4f5255 100%);
   color: #e0e0e0;
   font-family: "Inter", sans-serif;
 
@@ -27,11 +26,13 @@ header img {
 }
 
 header a {
-  margin: 0 auto;
-  font-size: 2rem;
+  font-size: 3rem;
   text-align: center;
   color: #0e0202;
   text-decoration: none;
+  padding: 8px 24px;
+  border-radius: 8px;
+  transition: color 0.2s, background 0.2s;
 }
 
 header a:hover {
@@ -42,12 +43,17 @@ header div {
   justify-content: center;
 }
 .header {
-  width: 60%;
-  margin-left: 20%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 32px; 
   color: #f2ece6;
   border: none;
   padding: 12px 24px;
   font-weight: bold;
+  background: none;
+  margin: 0;
+  width: 100%;
 }
 
 .header:hover {
@@ -56,4 +62,36 @@ header div {
   box-shadow: none !important;
   outline: none;
 }
+
+main {
+  padding-top: 150px;
+  min-height: 100vh;
+  width: 100%;
+  position: relative;
+  background: 
+    url('zdjecia/samurai2.png') center center/cover no-repeat;
+  background-size: 50% 90%;
+  background-attachment: fixed;
+  opacity: 0.8;
+
+}
+.kamienie {
+  width: 60%;
+  margin: 150px auto;
+  height: 500px;
+  background: url('zdjecia/kamienie.jpg') repeat-x center center;
+  background-size: auto 170%;
+  font-family: 'Rock Salt', cursive;
+  color: #fff; 
+  font-size: 2.5rem;
+  text-align: center;
+  line-height: 120px; 
+  text-shadow: 2px 2px 8px #fff, 0 0 2px #000;
+  border-radius: 32px;
+  box-shadow: 0 4px 24px #0004;
+  opacity: initial;
+  
+}
+
+
 
