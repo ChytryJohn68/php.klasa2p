@@ -4,7 +4,7 @@ body {
   background: 
     linear-gradient(180deg, #18191a 0%, #4f5255 100%);
   color: #e0e0e0;
-  font-family: "Inter", sans-serif;
+  
 
     
 }
@@ -76,22 +76,32 @@ main {
 
 }
 .kamienie {
-  width: 60%;
+  width: 100%;
   margin: 150px auto;
   height: 500px;
   background: url('zdjecia/kamienie.jpg') repeat-x center center;
-  background-size: auto 170%;
+  background-size: auto 200%;
   font-family: 'Rock Salt', cursive;
   color: #fff; 
   font-size: 2.5rem;
   text-align: center;
   line-height: 120px; 
   text-shadow: 2px 2px 8px #fff, 0 0 2px #000;
-  border-radius: 32px;
+  
   box-shadow: 0 4px 24px #0004;
   opacity: initial;
   
 }
 
 
+header a, .header {
+  font-family: 'Cormorant Garamond', serif;
+}
 
+main, main * {
+  font-family: 'Noto Sans JP', sans-serif;
+}
+
+footer, footer * {
+  font-family: 'Rock Salt', cursive;
+}

@@ -7,12 +7,16 @@
     <link rel="stylesheet" href="formatowanie.css">
     <link href="zdjecia/sushi_icon.png" rel="icon" type="image/x-icon" alt="LOGO">
     <link href="https://fonts.googleapis.com/css?family=Rock+Salt&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Cormorant+Garamond:700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Noto+Sans+JP:400,700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Rock+Salt&display=swap" rel="stylesheet">
+
     <title>WASABI SAMURAI</title>
 </head>
 
 <body>
     <header>
-        <img src="zdjecia/sushi_icon.png" alt="LOGO">
+        <img src="zdjecia/samurai2.png" alt="LOGO">
         <div class="header">
             <a href="index.php">HOME</a>
             <a href="oferta.php">OFERTA</a>
