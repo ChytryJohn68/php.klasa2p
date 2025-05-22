@@ -1,0 +1,43 @@
+html,body{
+    margin: 0px;
+}
+* {
+  box-sizing: border-box;
+}
+
+/* Create two equal columns that floats next to each other */
+.column {
+    float: left;
+    width: 25%;
+    padding: 10px;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    background-color: aqua;
+    
+}
+.column2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  float: right;
+  width: 75%;
+  padding: 10px;
+  height: 25%; /* Should be removed. Only for demonstration */
+  background-color: yellow;
+}
+a{
+    display: block;
+    padding: 30px;
+    text-decoration: none;
+    color:white;
+    font-size: 1.5rem;
+}
+a:hover{
+    background-color: aquamarine;
+  border: none;
+  width: 100%;
+  
+}
+
+/* Clear floats after the columns */
