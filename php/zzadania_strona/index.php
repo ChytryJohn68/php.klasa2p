@@ -1,8 +1,4 @@
-<?php
 
-// Check connection
-include "connect.php";
-?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -12,19 +8,23 @@ include "connect.php";
     <title>Document</title>
 </head>
 <body>
-    
+<?php
+
+// Check connection
+include 'connect.php';
+?>
   <div class="column" >
-   
-        <a href="index.php">Strona główna</a>
-        <a href="index.php?PAGE=czytelnicy">Tabela czytelnicy</a>
-        <a href="index.php?PAGE=działy">Tabela działy</a>
-        <a href="index.php?PAGE=książki">Tabela książki</a>
-        <a href="index.php?PAGE=pracownicy">Tabela pracownicy</a>
-        <a href="index.php?PAGE=stanowiska">Tabela stanowiska</a>
-        <a href="index.php?PAGE=wypożyczenia">Tabela wypożyczenia</a>
+           
+   <a href="index.php">Strona główna</a>
+   <a href="index.php?page=czytelnicy">Tabela czytelnicy</a>
+   <a href="index.php?page=działy">Tabela działy</a>
+   <a href="index.php?page=książki">Tabela książki</a>
+   <a href="index.php?page=pracownicy">Tabela pracownicy</a>
+   <a href="index.php?page=stanowiska">Tabela stanowiska</a>
+   <a href="index.php?page=wypożyczenia">Tabela wypożyczenia</a>
   </div>
   <div class="column2" >
-    <h1>Strona główna</h1>
+   
     <?php
         if (isset($_GET['page'])) {
             if (file_exists('pages/' . $_GET['page'] . '.php')) {
